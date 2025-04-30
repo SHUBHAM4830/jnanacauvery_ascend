@@ -46,10 +46,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       </div>
       {/* Responsive font sizes for 2025 */}
       <h1 className="text-4xl md:text-5xl font-bold mb-2 text-white flex flex-col items-center justify-center">
-        <span className="block animate-fade-in">Jnana Cauvery <span className="gradient-text block sm:inline">{''}
-          <span className="inline sm:hidden text-5xl font-extrabold tracking-widest">2025</span>
-          <span className="hidden sm:inline">2025</span>
-        </span></span>
+        <span className="block animate-fade-in text-center">Jnana Cauvery</span>
+        <span className="gradient-text text-5xl font-extrabold tracking-widest text-center mt-2">2025</span>
       </h1>
       <h2 className="text-xl md:text-2xl text-white/80 font-medium mb-8 animate-fade-in" style={{animationDelay: "0.3s"}}>
         Ascend Club Presents
