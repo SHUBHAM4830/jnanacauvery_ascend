@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
             index === activeIndex ? "opacity-70" : "opacity-0"
           )}
           style={{
-            backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url(${image})`,
+            backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.6)), url(${image})`,
           }}
         />
       ))}
@@ -60,22 +60,36 @@ const HeroSection: React.FC = () => {
             Jnana <span className="gradient-text">Cauvery</span> 2025
           </h1>
 
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center items-center mb-6 space-x-4 md:space-x-8">
+            {/* CSBS Logo */}
+            <div className="p-2 rounded-full bg-gradient-to-r from-theme-purple to-theme-blue shadow-xl" style={{ display: 'inline-block' }}>
+              <img 
+                src="/csbs-logo.png" 
+                alt="CSBS Logo" 
+                className="h-24 w-24 md:h-40 md:w-40 max-w-full rounded-full object-cover border-4 border-white"
+                style={{ aspectRatio: '1 / 1' }}
+              />
+            </div>
+
+            {/* Purple Line */}
+            <div className="w-[2px] h-16 md:h-32 bg-gradient-to-b from-theme-purple to-theme-blue"></div>
+
+            {/* Ascend Logo */}
             <div className="p-2 rounded-full bg-gradient-to-r from-theme-purple to-theme-blue shadow-xl" style={{ display: 'inline-block' }}>
               <img 
                 src="/ascend-logo.png" 
                 alt="Ascend Club Logo" 
-                className="h-32 w-32 md:h-48 md:w-48 max-w-full rounded-full object-cover border-4 border-white"
+                className="h-24 w-24 md:h-40 md:w-40 max-w-full rounded-full object-cover border-4 border-white"
                 style={{ aspectRatio: '1 / 1' }}
               />
             </div>
           </div>
 
           <h2 className="text-2xl md:text-3xl font-medium mb-8">
-            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider ">Department Of Computer Science and Business Systems</span>
+            <span className="gradient-text font-['Orbitron'] font-bold tracking-wider">Department Of Computer Science and Business Systems</span>
             <br />
             <span className="text-gray-400 font-['Roboto'] font-medium">through</span>{' '}
-            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider">Ascend</span>{' '}
+            <span className="gradient-text font-['Orbitron'] font-bold tracking-wider">Ascend</span>{' '}
             <span className="text-gray-400 font-['Roboto'] font-medium">presents</span>
           </h2>
           
