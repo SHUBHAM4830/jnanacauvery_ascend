@@ -280,19 +280,11 @@ const BeatTheClockEventPage = () => {
               </ul>
             </div>
             <div className="bg-theme-purple/10 rounded-lg p-8 text-center">
-              <div className="flex justify-center space-x-4 mb-6">
-                <FaSwatchbook className="text-3xl text-theme-purple" />
-                <FaStickyNote className="text-3xl text-theme-purple" />
-                <FaMugHot className="text-3xl text-theme-purple" />
-                <FaHeadphones className="text-3xl text-theme-purple" />
+              <div className="flex justify-center mb-6">
+                <FaGift className="text-5xl text-theme-purple" />
               </div>
               <h3 className="text-xl font-bold mb-4">Exclusive Merch</h3>
-              <ul className="space-y-2">
-                <li>Designer Notebooks</li>
-                <li>Premium Stickers</li>
-                <li>Custom Mugs</li>
-                <li>Wireless Earbuds</li>
-              </ul>
+              <p className="text-gray-300">Participate and get to know for yourself!</p>
             </div>
             <div className="bg-theme-purple/10 rounded-lg p-8 text-center">
               <FaCertificate className="text-5xl text-theme-purple mx-auto mb-6" />
