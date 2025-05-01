@@ -119,7 +119,7 @@ const DejaViewEventPage = () => {
       </nav>
 
       {/* Hero Section with Sliding Images */}
-      <div className="relative min-h-screen overflow-hidden flex flex-col items-center px-2 md:px-4 pt-16 md:pt-0">
+      <div className="relative min-h-screen overflow-hidden flex flex-col items-center px-2 md:px-4 pt-24 md:pt-24">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -133,7 +133,7 @@ const DejaViewEventPage = () => {
           </div>
         ))}
 
-        <div className="relative flex flex-col items-center w-full max-w-3xl mx-auto text-center space-y-3 md:space-y-6 py-8 md:py-0">
+        <div className="relative flex flex-col items-center w-full max-w-3xl mx-auto text-center space-y-3 md:space-y-6 py-8 md:py-16 mt-8">
           <h1 className="text-2xl sm:text-3xl md:text-7xl font-bold gradient-text">Déjà View</h1>
           <p className="text-sm sm:text-base md:text-2xl text-gray-300">The Ultimate Web Recreation Showdown</p>
           <CountdownTimer targetDate={new Date('2025-05-09T11:30:00')} />
