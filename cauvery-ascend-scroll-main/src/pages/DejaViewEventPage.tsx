@@ -119,7 +119,7 @@ const DejaViewEventPage = () => {
       </nav>
 
       {/* Hero Section with Sliding Images */}
-      <div className="relative h-screen overflow-hidden flex flex-col justify-center items-center px-2 md:px-4">
+      <div className="relative min-h-screen overflow-hidden flex flex-col items-center px-2 md:px-4 pt-16 md:pt-0">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -133,13 +133,13 @@ const DejaViewEventPage = () => {
           </div>
         ))}
 
-        <div className="relative h-full flex flex-col items-center justify-center px-2 md:px-4 w-full max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold gradient-text mb-4">Déjà View</h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6">The Ultimate Web Recreation Showdown</p>
+        <div className="relative flex flex-col items-center w-full max-w-3xl mx-auto text-center space-y-3 md:space-y-6 py-8 md:py-0">
+          <h1 className="text-2xl sm:text-3xl md:text-7xl font-bold gradient-text">Déjà View</h1>
+          <p className="text-sm sm:text-base md:text-2xl text-gray-300">The Ultimate Web Recreation Showdown</p>
           <CountdownTimer targetDate={new Date('2025-05-09T11:30:00')} />
-          <a href="https://forms.gle/SmdVMD5tM4nrHz7h7" target="_blank" rel="noopener noreferrer" className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 mt-6">Register Now</a>
+          <a href="https://forms.gle/SmdVMD5tM4nrHz7h7" target="_blank" rel="noopener noreferrer" className="btn-primary text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 py-2 md:py-3">Register Now</a>
         </div>
-        <div className="relative w-full max-w-4xl mx-auto mt-8">
+        <div className="relative w-full max-w-4xl mx-auto mb-8 md:mb-0">
           <CodeMatrix />
         </div>
       </div>
