@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
             index === activeIndex ? "opacity-70" : "opacity-0"
           )}
           style={{
-            backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.8)), url(${image})`,
+            backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.5)), url(${image})`,
           }}
         />
       ))}
@@ -71,8 +71,12 @@ const HeroSection: React.FC = () => {
             </div>
           </div>
 
-          <h2 className="text-2xl md:text-3xl font-medium text-gray-200 mb-8">
-            Ascend Club with the Department of CSBS presents
+          <h2 className="text-2xl md:text-3xl font-medium mb-8">
+            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider ">Department Of Computer Science & Business Systems</span>
+            <br />
+            <span className="text-gray-400 font-['Roboto'] font-medium">through</span>{' '}
+            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider">Ascend</span>{' '}
+            <span className="text-gray-400 font-['Roboto'] font-medium">presents</span>
           </h2>
           
           <p className="text-xl text-gray-300 max-w-2xl mb-10">
