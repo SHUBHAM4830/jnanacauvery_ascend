@@ -12,11 +12,11 @@ const sections = [
 ];
 
 const timeline = [
-  { time: '10:00 AM', activity: 'Registrations' },
-  { time: '10:30 AM', activity: 'Opening Brief' },
-  { time: '11:00 AM', activity: 'Game Rounds Begin' },
-  { time: '01:00 PM', activity: 'Final Scoring' },
-  { time: '01:30 PM', activity: 'Results & Prize Distribution' },
+  { time: '11:00 AM', activity: 'Registrations' },
+  { time: '11:30 AM', activity: 'Opening Brief' },
+  { time: '11:45 AM', activity: 'Game Rounds Begin' },
+  { time: '01:30 PM', activity: 'Final Scoring' },
+  { time: '01:45 PM', activity: 'Results & Prize Distribution' },
 ];
 
 const BeatTheClockEventPage = () => {
