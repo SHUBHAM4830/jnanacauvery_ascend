@@ -12,9 +12,9 @@ const sections = [
 ];
 
 const timeline = [
-  { time: '09:00 AM', activity: 'Team Registration' },
-  { time: '09:30 AM', activity: 'Kick-off Briefing & Reference Site Reveal' },
-  { time: '10:00 AM', activity: 'Web Development Sprint Begins' },
+  { time: '11:00 AM', activity: 'Team Registration' },
+  { time: '11:30 AM', activity: 'Kick-off Briefing & Reference Site Reveal' },
+  { time: '11:45 AM', activity: 'Web Development Sprint Begins' },
   { time: '12:45 PM', activity: 'Coding Ends' },
   { time: '01:00 PM', activity: 'Demos & Judging' },
   { time: '01:45 PM', activity: 'Results & Closing Ceremony' },
@@ -187,7 +187,7 @@ const DejaViewEventPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Team Size</h3>
-                <p className="text-gray-400">2-3 Members per Team</p>
+                <p className="text-gray-400">2 Members per Team</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
