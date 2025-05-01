@@ -196,7 +196,7 @@ const DejaViewEventPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Duration</h3>
-                <p className="text-gray-400">3 Hours</p>
+                <p className="text-gray-400">2 Hours</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -223,7 +223,7 @@ const DejaViewEventPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Tech Stack</h3>
-                <p className="text-gray-400">HTML, CSS, JavaScript, React, Bootstrap, Tailwind</p>
+                <p className="text-gray-400">HTML, CSS, JavaScript and Bootstrap</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">

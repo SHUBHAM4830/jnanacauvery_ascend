@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 mb-4">
               An extraordinary celebration of talent, innovation and creativity brought to you by Ascend Club.
             </p>
-            <p className="text-theme-purple font-medium">May 8th, 2025</p>
+            <p className="text-theme-purple font-medium">May 8th, 2025 and May 9th, 2025</p>
           </div>
           
           <div>

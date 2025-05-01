@@ -45,14 +45,14 @@ const Index: React.FC = () => {
         <EventSection 
           id="beatTheClock"
           title="Beat The Clock"
-          description="Challenge your limits and race against time in this thrilling competition. Solve complex puzzles, overcome obstacles, and demonstrate your skills before the clock runs out. Are you quick enough to beat the clock?"
+          description="Challenge your limits and race against time in this thrilling competition. Solve complex puzzles, overcome obstacles and demonstrate your skills before the clock runs out. Are you quick enough to beat the clock?"
           imageUrl="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
         />
         
         <EventSection 
           id="dejaView"
           title="Deja View"
-          description="Experience the extraordinary sensation of remembering something you've never seen before. This mind-bending event challenges your perception, memory, and creative thinking. Step into a world where past and present collide."
+          description="Experience the extraordinary sensation of remembering something you've never seen before. This mind-bending event challenges your perception, memory and creative thinking. Step into a world where past and present collide."
           imageUrl="https://images.unsplash.com/photo-1500673922987-e212871fec22"
           isReversed
         />

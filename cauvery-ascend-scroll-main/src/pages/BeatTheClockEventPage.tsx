@@ -108,7 +108,7 @@ const BeatTheClockEventPage = () => {
         <div className="w-full flex flex-col items-center justify-center text-center max-w-3xl mx-auto">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold gradient-text mb-2">BEAT THE CLOCK</h1>
           <p className="text-lg sm:text-xl md:text-2xl text-theme-purple font-semibold mb-2">The Ultimate Time-Based Challenge</p>
-          <p className="text-base md:text-lg text-gray-300 mb-6 max-w-2xl">Every second counts. Test your mental agility, teamwork, and reflexes in a high-energy competition where speed is the only currency that matters!</p>
+          <p className="text-base md:text-lg text-gray-300 mb-6 max-w-2xl">Every second counts. Test your mental agility, teamwork and reflexes in a high-energy competition where speed is the only currency that matters!</p>
           <CountdownTimer targetDate={new Date('2025-05-09T10:00:00')} />
           <a href="https://forms.gle/Kk5YjRGW7mD7WT1K6" target="_blank" rel="noopener noreferrer" className="btn-primary text-base sm:text-lg px-6 sm:px-8 py-3 mt-6 mb-4">Register Now</a>
         </div>
@@ -136,7 +136,7 @@ const BeatTheClockEventPage = () => {
                   <FaUsers className="text-3xl text-theme-purple" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Team Spirit</h3>
-                <p className="text-gray-400">Win with communication, coordination, and composure.</p>
+                <p className="text-gray-400">Win with communication, coordination and composure.</p>
               </div>
             </div>
             <div className="bg-theme-purple/5 rounded-xl p-8 transform hover:scale-105 transition-transform">
@@ -145,7 +145,7 @@ const BeatTheClockEventPage = () => {
                   <FaTrophy className="text-3xl text-theme-purple" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">Win Big</h3>
-                <p className="text-gray-400">Cash prizes, certificates, and goodies for top teams.</p>
+                <p className="text-gray-400">Cash prizes, certificates and goodies for top teams.</p>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ const BeatTheClockEventPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Event Date</h3>
-                <p className="text-gray-400">9th May</p>
+                <p className="text-gray-400">8th May 2025</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
