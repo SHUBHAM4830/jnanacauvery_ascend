@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-medium mb-8">
-            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider ">Department Of Computer Science & Business Systems</span>
+            <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider ">Department Of Computer Science and Business Systems</span>
             <br />
             <span className="text-gray-400 font-['Roboto'] font-medium">through</span>{' '}
             <span className="text-theme-purple font-['Orbitron'] font-bold tracking-wider">Ascend</span>{' '}
