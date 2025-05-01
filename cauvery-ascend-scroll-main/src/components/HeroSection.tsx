@@ -79,9 +79,7 @@ const HeroSection: React.FC = () => {
             <span className="text-gray-400 font-['Roboto'] font-medium">presents</span>
           </h2>
           
-          <p className="text-xl text-gray-300 max-w-2xl mb-10">
-            Join us for an extraordinary journey of innovation, creativity, and excellence.
-          </p>
+          
           
           <button onClick={scrollToNext} className="btn-primary">
             Explore Events
